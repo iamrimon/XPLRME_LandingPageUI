@@ -67,6 +67,10 @@ img {
 /*-- //Reset-Code --*/
 
 /* Navbar */
+.navbar{
+  height: 78px !important; 
+  padding: 0px 70px !important;
+}
 .navbar-btn {
   height: 44px;
   width: 116px;
@@ -528,47 +532,42 @@ img {
 /* //testimonials */
 /* provider */
 .provider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   background-color: #fafafa;
   padding-top: 100px;
+  position: relative;
 }
 .provider .container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 }
-.left {
-  background-image: url(../images/pexels-vanessa-garcia-6325984\ 1.png);
-  height: 620px;
-  width: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
+
+.provider-image-1{
+  width: 75%;
+	position: relative;
+	float: left !important;
 }
-.right {
-  width: 450px;
-  max-height: 350px;
-  background-color: #fafafa;
-  padding: 2rem 4rem !important;
-  border-radius: 20px;
-  box-shadow: 5px 5px 20px 2px rgb(0, 0, 0, 0.2);
-  position: relative;
-  left: -230px;
+
+.provider-image-2 {
+    width: 35%;
+    position: absolute;
+    top: 33%;
+    right: 65px;
+    background-color: #fafafa;
+    padding: 2rem !important;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 2px rgb(0 0 0 / 20%);
 }
-.right p {
+
+.provider-image-2 p {
   font-size: 24px;
   font-weight: 100;
   color: #016b6f;
 }
-.right h1 {
+.provider-image-2 h1 {
   font-size: 42px;
   font-weight: 500;
   color: #016b6f;
 }
-.right button {
+.provider-image-2 button {
   font-size: 16px;
   font-weight: 300;
   color: #fafafa !important;
@@ -576,10 +575,12 @@ img {
   margin-top: 30px;
   border: none;
 }
-.right button:hover {
+.provider-image-2 button:hover {
   color: #016b6f;
   background-color: #fafafa;
 }
+
+
 /* provider */
 /*-- Footer --*/
 .footer {
@@ -649,4 +650,67 @@ img {
 .footer .copyright-social ul li a:hover {
   color: #00b0b6;
 }
+.featurette-divider{
+  color: #fafafa !important; 
+  margin-top: 70px
+}
 /*-- //Footer End--*/
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////// */
+
+/*-- Responsive-Code --*/
+
+@media screen and (max-width: 300px) {
+	.navbar{ 
+    padding: 0px 5px !important;
+  }
+
+  .testimonials-item .item p{
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .navbar{ 
+    padding: 0px 5px !important;
+  }
+  .testimonials-item .item p{
+    font-size: 14px;
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+  .navbar{ 
+    padding: 0px 20px !important;
+  }
+
+  .testimonials-item .item p{
+    font-size: 18px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 853px) {
+	
+	
+	
+}
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+
+/*-- //Responsive-Code --*/
