@@ -757,6 +757,9 @@ header {
   .copyright-social {
     padding-right: 20px !important;
   }
+  .choice-xplrm .contain {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -795,8 +798,21 @@ header {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 758px) {
+@media screen and (min-device-width: 750px) and (max-device-width: 858px) {
+  .choice-xplrm .xplrm1 {
+    left: 70px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 70px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 70px;
+    top: 470px;
+  }
 }
+
 
 @media screen and (max-width: 999px) {
   .navbar {
@@ -862,5 +878,4 @@ header {
     font-size: 16px;
   }
 }
-
 /*-- //Responsive-Code --*/
