@@ -8,9 +8,10 @@ $(document).ready(function(){
         items:1,
         dots:true,
         autoplay:true,
-        autoplayTimeout:3000,
+        autoplayTimeout:5000,
     });
 });
+
 
 
 // slick slider
@@ -20,7 +21,29 @@ $('.slick_slide').slick({
     autoplay: false,
     autoplaySpeed: 2000,
     prevArrow:'<i class="left_arrow">',
-    nextArrow:'<i class="fa-solid fa-arrow-right right_arrow">,'
+    nextArrow:'<i class="fa-solid fa-arrow-right right_arrow">,',
+    responsive: [
+        {
+          breakpoint: 999,
+          settings: {
+            slidesToShow: 3,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
   });
 
 // iso-top
