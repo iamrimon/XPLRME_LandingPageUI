@@ -813,7 +813,6 @@ header {
   }
 }
 
-
 @media screen and (max-width: 999px) {
   .navbar {
     padding: 0px 20px;
@@ -826,7 +825,12 @@ header {
   }
   .navbar-collapse {
     margin-top: 15px;
+    background: #fafafa !important;
   }
+  .search-box {
+    background-color: #016b6f;
+  }
+
   .provider-dec {
     padding: 10px 30px !important;
   }
@@ -878,4 +882,189 @@ header {
     font-size: 16px;
   }
 }
+@media screen and (min-device-width: 450px) and (max-device-width: 599px) {
+  .choice-xplrm .xplrm1 {
+    left: 1px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 1px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 1px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 600px) and (max-device-width: 749px) {
+  .choice-xplrm .xplrm1 {
+    left: 40px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 40px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 40px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 850px) and (max-device-width: 999px) {
+  .choice-xplrm .xplrm1 {
+    left: 115px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 115px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 115px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 1150px) {
+  .choice-xplrm .xplrm1 {
+    left: 140px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 140px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 140px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1151px) and (max-device-width: 1250px) {
+  .choice-xplrm .xplrm1 {
+    left: 155px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 155px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 155px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1251px) and (max-device-width: 1400px) {
+  .choice-xplrm .xplrm1 {
+    left: 205px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 205px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 205px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1401px) and (max-device-width: 1550px) {
+  .choice-xplrm .xplrm1 {
+    left: 230px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 230px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 230px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1551px) and (max-device-width: 1650px) {
+  .choice-xplrm .xplrm1 {
+    left: 270px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 270px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 270px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1651px) and (max-device-width: 1750px) {
+  .choice-xplrm .xplrm1 {
+    left: 300px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 300px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 300px;
+    top: 470px;
+  }
+}
+
+@media screen and (min-device-width: 1751px) and (max-device-width: 1900px) {
+  .choice-xplrm .xplrm1 {
+    left: 335px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 335px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 335px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 1901px) and (max-device-width: 2050px) {
+  .choice-xplrm .xplrm1 {
+    left: 370px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 370px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 370px;
+    top: 470px;
+  }
+}
+@media screen and (min-device-width: 2051px) and (max-device-width: 2200px) {
+  .choice-xplrm .xplrm1 {
+    left: 410px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 410px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 410px;
+    top: 470px;
+  }
+}
+
+@media screen and (min-device-width: 2201px) and (max-device-width: 2400px) {
+  .choice-xplrm .xplrm1 {
+    left: 460px;
+    top: -30px;
+  }
+  .choice-xplrm .xplrm2 {
+    left: 460px;
+    top: 220px;
+  }
+  .choice-xplrm .xplrm3 {
+    left: 460px;
+    top: 470px;
+  }
+}
+
 /*-- //Responsive-Code --*/
